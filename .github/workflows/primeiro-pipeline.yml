@@ -14,6 +14,7 @@ jobs:
   Primeiro-Fluxo:
     # esté é o nome do fluxo de trabalho
     name: Job1
+    needs: Terceiro-Fluxo
     # para ser executado nesta maquina virtual linux
     runs-on: ubuntu-latest
     # agora irei incluir os passos do script 
